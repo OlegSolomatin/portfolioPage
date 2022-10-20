@@ -10,6 +10,7 @@
     border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: fit-content;
 }
 
 .portfolio__item:hover{
@@ -34,7 +35,7 @@
 
 .portfolio__item-tags{
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
     margin-top: 1rem;
     flex-wrap: wrap;
 }
